@@ -18,6 +18,7 @@ body {
   background-color: #f0f0f0;
   border-radius: 20px;
   padding: 20px;
+  height: 530px;
   margin-left: 43%;
   width: 300px;
   max-width: 100%;
@@ -28,7 +29,7 @@ body {
   /* Inner shadows */
   box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.5),
               inset -5px -5px 10px rgba(0, 0, 0, 0.3),
-              -5px -5px 10px rgba(255, 255, 255, 0.5),
+              -5px -5px 10px rgba(228, 228, 228, 0.5),
               5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -46,8 +47,10 @@ body {
   color: grey;
   font-size: 1.5em;
   padding: 10px;
-  margin-bottom: 10px;
-  height: 130px; /* Increased height by 70 pixels */
+  margin-bottom: 20px;
+  margin-top: 50px;
+  height: 80px; /* Increased height by 70 pixels */
+  width: 270px;
   text-align: right; /* Align result on the right */
   display: flex;
   align-items: center; /* Vertically center the text */
@@ -124,7 +127,7 @@ button.operator {
 }
 
 button.equal {
-  background-color: black;
+  background-color: rgb(78, 78, 78);
   color: white;
 }
 
