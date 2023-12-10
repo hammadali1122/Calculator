@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Neumorphic Calculator</title>
+</head>
+<body>
+
+  <div class="master" >
+
+      <div class="mobile">
+        <div class="last-result" id="lastResult"></div>
+        <div class="screen" id="screen"></div>
+        <div class="buttons">
+          <button class="special c greybtn" onclick="clearScreen()">C</button>
+          <button class="special parentheses greybtn" onclick="appendToScreen('(')">(</button>
+          <button class="special parentheses greybtn" onclick="appendToScreen(')')">)</button>
+          <button class="special greybtn" onclick="backspace()">←</button>
+          <button class="operator" onclick="appendToScreen('/')">/</button>
+          <button onclick="appendToScreen('7')">7</button>
+          <button onclick="appendToScreen('8')">8</button>
+          <button onclick="appendToScreen('9')">9</button>
+          <button class="operator" onclick="appendToScreen('*')">*</button>
+          <button onclick="appendToScreen('4')">4</button>
+          <button onclick="appendToScreen('5')">5</button>
+          <button onclick="appendToScreen('6')">6</button>
+          <button class="operator" onclick="appendToScreen('-')">-</button>
+          <button onclick="appendToScreen('1')">1</button>
+          <button onclick="appendToScreen('2')">2</button>
+          <button onclick="appendToScreen('3')">3</button>
+          <button class="operator" onclick="appendToScreen('+')">+</button>
+          <button onclick="appendToScreen('0')">0</button>
+          <button onclick="appendToScreen('.')">.</button>
+          <button class="equal" onclick="calculateResult()">=</button>
+        </div>
+      </div>
+
+
+
+    <!-- ... previous HTML code ... -->
+
+    <div class="footer">
+      <div class="footer-content">
+        <p>Powered by: Hammad Ali</p>
+        <p>&copy; 2023 NeuMorphism Calculator. All Rights Reserved.</p>
+        <div class="social-links">
+          <a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+          <a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter-square"></i></a>
+          <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <!-- Add more social links as needed -->
+        </div>
+      </div>
+    </div>
+
+<!-- ... closing body and html tags ... -->
+
+  </div>
+
+
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
